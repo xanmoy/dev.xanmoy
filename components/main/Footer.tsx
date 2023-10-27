@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
               <div className="md:flex md:justify-between">
                   <div className="mb-6 md:mb-0">
-                      <a href="https://flowbite.com/" className="flex items-center">
+                      <a href="/" className="flex items-center">
                           
                           <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Xanmoy</span>
                       </a>
@@ -28,10 +28,10 @@ const Footer = () => {
                           <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Social</h2>
                           <ul className="text-gray-500 dark:text-gray-400 font-medium">
                               <li className="mb-4">
-                                  <a href="https://flowbite.com/" className="hover:underline">Twitter</a>
+                                  <a href="/" className="hover:underline">Twitter</a>
                               </li>
                               <li>
-                                  <a href="https://tailwindcss.com/" className="hover:underline">LinkedIn</a>
+                                  <a href="/" className="hover:underline">LinkedIn</a>
                               </li>
                           </ul>
                       </div>
@@ -59,7 +59,8 @@ const Footer = () => {
                       </div>
                   </div>
               </div>
-              <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+              <hr className="my-6 border-transparent lg:my-8" />
+              {/* border-gray-200 sm:mx-auto dark:border-gray-700 */}
               <div className="sm:flex sm:items-center sm:justify-between">
                   <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://xanmoy.me/" className="hover:underline">Xanmoy</a>. All Rights Reserved.
                   </span>
