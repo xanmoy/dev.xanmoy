@@ -28,6 +28,24 @@ const Projects = () => {
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         />
       </div>
+      <br /><br />
+      <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+        <ProjectCard
+          src="/main.png"
+          title="Modern Three.js Portfolio"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        />
+        <ProjectCard
+          src="/project3.png"
+          title="Ecommerce Website"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        />
+        <ProjectCard
+          src="/dev.png"
+          title="Space Themed Website"
+          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        />
+      </div>
     </div>
   );
 };

@@ -30,16 +30,18 @@ const HeroContent = () => {
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-6 text-5xl font-bold text-white max-w-[600px] w-auto h-auto"
           // max-w-[600px]
         >
           <span>
-            Providing
+            Hi, I&apos;m
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
               {" "}
-              the best{" "}
+              Tanmoy{" "}
             </span>
-            project exprience
+            <br />
+            <span> a Developer</span>
+           
           </span>
         </motion.div>
 
@@ -47,11 +49,13 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          Hi,  I&apos;m <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+          This is my
+          {/* &apos; */}
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             {" "}
-            Tanmoy Ganguly{" "}
-          </span> a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+            Developer
+            {" "}
+          </span> website where I showcase my projects and skills.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
