@@ -28,7 +28,7 @@ const Footer = () => {
                           <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Social</h2>
                           <ul className="text-gray-500 dark:text-gray-400 font-medium">
                               <li className="mb-4">
-                                  <a href="/" className="hover:underline">Twitter</a>
+                                  <a href="https://x.com/xanmoy" className="hover:underline">X</a>
                               </li>
                               <li>
                                   <a href="/" className="hover:underline">LinkedIn</a>
