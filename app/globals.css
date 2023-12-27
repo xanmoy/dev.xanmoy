@@ -69,3 +69,7 @@
 html {
   scroll-behavior: smooth;
 }
+
+.txtlalg{
+  text-align: left;
+}

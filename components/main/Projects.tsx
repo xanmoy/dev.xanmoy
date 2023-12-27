@@ -29,12 +29,16 @@ const Projects = () => {
         />
       </div>
       <br /><br />
+
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
+       
         <ProjectCard
+          
           src="/booksx.png"
           title="BooksX - Your Literary Haven"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        />
+          />
+        
         <ProjectCard
           src="/vconnect.png"
           title="Visual Connect - Online Video Calling App"

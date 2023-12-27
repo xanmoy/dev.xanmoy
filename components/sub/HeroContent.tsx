@@ -24,13 +24,13 @@ const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Xanmoy Developers
+            Xanmoy
           </h1>
         </motion.div>
 
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-5xl font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white lg:text-left sm:text-center txtlalg max-w-full w-full h-auto"
           // max-w-[600px]
         >
           <span>
@@ -40,7 +40,7 @@ const HeroContent = () => {
               Tanmoy{" "}
             </span>
             <br />
-            <span> a Developer</span>
+            <span className="text-3xl"> a Developer</span>
            
           </span>
         </motion.div>
@@ -55,14 +55,14 @@ const HeroContent = () => {
             {" "}
             Developer
             {" "}
-          </span> website where I showcase my projects and skills.
+          </span> website <br />Where I showcase my projects and skills.
         </motion.p>
-        <motion.a
+        {/* <motion.a
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]" href="https://xanmoy.me"
         >Learn More!
           
-        </motion.a>
+        </motion.a> */}
       </div>
 
       <motion.div
